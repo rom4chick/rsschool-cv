@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    font-size: 14px;
+}
+
+body {
+    background: linear-gradient(to right, #5433FF, #20BDFF, #A5FECB);
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    background: #fff;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+}
+
+.left-column {
+    background-color: #333;
+    width: 250px;
+}
+
+.resume-photo {
+    text-align: center;
+    padding: 20px;
+}
+
+.resume-photo img {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.contacts-title,
+.skills-title {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+    letter-spacing: 7px;
+    color: #5433FF;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.contacts-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+
+.contacts-item-text {
+    color: #fff;
+    width: calc(100% - 85px);
+    word-break: break-word;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.contacts-item-icon img,
+.skills-item-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.contacts-item-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills-item {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.skills-item-text {
+    font-size: 14px;
+    color: #20BDFF;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.skills {
+    display: flex;
+}
+
+.right-column {
+    width: calc(100% - 250px);
+    padding-left: 10px;
+}
+
+.info-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    color: #5433FF;
+    margin-top: 10px;
+}
+
+.info-text {
+    margin-top: 15px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    width: 100%;
+    background: #fff;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 0.8rem;
+    color: #ffffff;
+    background-color: #333;
+}
+.footer-icon {
+    width: 100px;
+}
+
