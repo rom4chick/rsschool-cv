@@ -26,4 +26,16 @@ function capitalizeWord(word) {
 }
 ```
 
+Experience
+------
+Courses: HTML Academy, CS50 lections.
+
+Education
+----
+Now I am studying in BSUIR at the faculty of computer systems and networks.
+
+English
+------
+B1(I passed test after registration on training.by)
+
 
