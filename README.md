@@ -1,1 +1,1 @@
-# rsschool-cv
+https://rom4chick.github.io/rsschool-cv/
